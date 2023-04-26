@@ -1,0 +1,59 @@
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+	background-color: #F90;	
+	background-image: -webkit-linear-gradient(45deg,
+	                                          rgba(255, 255, 255, .2) 25%,
+											  transparent 25%,
+											  transparent 50%,
+											  rgba(255, 255, 255, .2) 50%,
+											  rgba(255, 255, 255, .2) 75%,
+											  transparent 75%,
+											  transparent)
+}
+
+.top-bar {
+  height: 50px;
+}
+
+.logo {
+  height: 50px
+}
+
+.bModal-enter {
+  opacity: 0;
+}
+
+.bModal-enter-active {
+  opacity: 0.5;
+  transform: translateX(0);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.bModal-enter-done {
+  opacity: 1;
+}
+
+.bModal-exit {
+  opacity: 1;
+}
+
+.bModal-exit-active {
+  opacity: 0.5;
+  transition: opacity 300ms, transform 300ms;
+}
+
+.bModal-exit-done {
+  opacity: 0;
+}
