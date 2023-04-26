@@ -1,0 +1,13 @@
+
+@font-face {
+  font-family: Inter;
+  src: url("./assets/fonts/Inter-Regular.ttf");
+}
+
+* {
+  font-size: 14px;
+  font-family: Inter;
+}
+li {
+  position: relative;
+}
